@@ -1,2 +1,25 @@
+# Environment variables
 .env
-/.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Local logs & data
+logs/
+*.log
+
+# Static generated files (optional, usually good to ignore artifacts)
+static/audio/*.mp3
+static/scripts/*.txt
