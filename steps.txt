@@ -1,0 +1,34 @@
+---------------------------------------------------------
+AI PODCAST CREATOR - SETUP STEPS
+---------------------------------------------------------
+
+Step 1: Environment Setup
+- Sabse pehle python install hona chahiye (Version 3.10+ recommended).
+- Ek virtual environment banao: `python -m venv .venv`
+- Use activate karo: `.venv\Scripts\activate`
+
+Step 2: Dependencies Install Karein
+- Niche di gayi command run karein:
+  pip install -r requirements.txt
+
+Step 3: API Key Configuration
+- Project folder me ek '.env' file create karein.
+- Usme apni Google Gemini API key dalein:
+  GEMINI_API_KEY=your_key_here
+
+Step 4: Folders Verify Karein
+- Make sure 'static' folder exist karta h (Ye automation se bhi ban jayega).
+- 'static/scripts' aur 'static/audio' folders artifacts store karne ke liye use honge.
+
+Step 5: Run the Project
+- Terminal me command run karein:
+  python main.py
+
+Step 6: Use the App
+- Browser open karein aur URL dalein: http://localhost:8000
+- Topic input karein aur "Initiate Production" button dabayein.
+- Maze lein! generated script aur audio dono screen par aa jayenge.
+
+---------------------------------------------------------
+Note: Logs dekhne ke liye 'logs/activity.log' check karein.
+---------------------------------------------------------
